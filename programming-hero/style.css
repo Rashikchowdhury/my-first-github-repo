@@ -1,0 +1,27 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 530px;
+    width: 480px;
+    margin: 8.5%;
+    padding: 20px;
+    border-radius: 20px 0px;
+    box-shadow: 10px 20px 8px 5px gray;
+    background-color: aqua;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 25px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
