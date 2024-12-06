@@ -1,8 +1,57 @@
+body{
+    margin: 0px 30px 0px 30px;
+
+}
 article{
     text-align: justify;
-    margin-bottom: 12px;
+    margin-bottom: 50px;
 }
 
 .copy{
     text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    margin-top: 5px;
+    box-shadow: 0px 8px 20px 1px rgb(241, 78, 78);
+}
+
+ul{
+    margin-left: 1330px;
+}
+
+header > h1{
+    color: white;
+    margin-left: 8px;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    font-size: larger;
+}
+
+.main_heading{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.para{
+    background-color: bisque;
+    /* border: 1px solid; */
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 10px 20px 2px gray;
 }
