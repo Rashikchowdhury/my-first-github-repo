@@ -1,0 +1,15 @@
+label{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+input{
+    font-size: 15px;
+}
+
+.field_1{
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
