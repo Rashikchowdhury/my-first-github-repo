@@ -1,0 +1,29 @@
+main{
+    /* background-color: red; */
+    place-items: center;
+    background-color: gray;
+    padding: 18%
+}
+
+table{
+    border-collapse: collapse;
+    /* margin-top: 20px; */
+    background-color: black;
+    margin: 20px;
+}
+
+caption{
+    margin-bottom: 6px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+td, th{
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+
