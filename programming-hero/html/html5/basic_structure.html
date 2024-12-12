@@ -38,11 +38,67 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti pariatur corrupti delectus sit quibusdam qui. Alias qui iusto, earum nobis tempore pariatur labore obcaecati? Tempore commodi quos perspiciatis asperiores atque, quas obcaecati facilis excepturi debitis eos tempora, perferendis harum! Fuga tempora sed blanditiis magni nobis eligendi eum minus velit pariatur? Quia commodi hic accusantium aspernatur, ad, itaque possimus eum fugiat rerum pariatur natus officia molestiae dolorum a iste culpa deserunt nesciunt, quod laborum aut! Dolor quo rerum atque pariatur fuga veritatis possimus! Illo rerum ullam commodi distinctio ipsam deleniti autem dignissimos impedit voluptatum veniam dolor natus dolorum eos, expedita est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam quibusdam explicabo, nulla id porro. Earum dolore eum voluptatum fugiat sapiente repellat odio harum maxime. Reiciendis at minima doloremque fuga eaque perspiciatis exercitationem quam voluptatem repellendus? Commodi modi, veritatis temporibus quia omnis optio similique consequuntur esse, odit quos quisquam suscipit corporis illo itaque earum ipsum voluptate accusamus quam iste cumque sapiente sit natus? Corrupti harum ratione, repellat animi provident a mollitia fugiat aliquam nulla in, voluptas aut! Necessitatibus culpa quis harum dicta! Rerum officia debitis nisi aliquam? Possimus alias omnis suscipit debitis autem soluta iusto molestiae harum blanditiis. Officia, voluptatibus doloremque, distinctio natus perspiciatis eveniet odit reprehenderit aperiam ipsam expedita, repudiandae voluptas explicabo molestiae! Error omnis doloremque deleniti. Recusandae provident aspernatur dignissimos fugit iusto! Accusamus neque quo nihil fugiat sit unde aliquam animi consequuntur consequatur mollitia, ratione sequi pariatur itaque. Voluptas quod labore, explicabo libero id architecto suscipit nostrum. Nam impedit iure libero? Doloremque a perferendis est illo minus voluptatum nesciunt, provident quasi explicabo expedita temporibus quisquam, incidunt totam nulla dolores optio debitis quibusdam saepe sequi iusto rerum voluptatibus dolorum! Optio, assumenda dolorem totam omnis nihil mollitia! Provident itaque a sapiente est nobis et tenetur obcaecati illum consequuntur perferendis! Beatae placeat ea tempora. Inventore perferendis fuga quos doloremque libero! Itaque hic error quo doloribus facilis exercitationem tempore, ad aut blanditiis molestias aliquid labore ipsa optio a. Temporibus odio fuga ratione facilis minus perferendis nam, consequuntur placeat obcaecati debitis saepe laborum error voluptas velit voluptatum porro soluta corporis, voluptatem, vitae inventore tenetur quidem. Error magnam, explicabo perspiciatis dolorem, unde quisquam quibusdam, facilis nisi tenetur commodi earum facere laudantium voluptates vitae. Vitae recusandae quisquam odit, explicabo illum incidunt similique aut dolores quaerat saepe quibusdam blanditiis distinctio numquam non iure? Sint, est blanditiis. Ipsum voluptate natus impedit ipsam aspernatur nihil est officia sint?
         </article>
 
+        <p><bdo dir="rtl">my name is muhammad rashik</bdo></p>
+
         <footer class="main_footer">
             <b>Published on <time datetime="05.12.2024">Dec 05, 2024</time></b>
         </footer>
 
     </main>   
+
+    <style>
+        .list{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        .nested_testing{
+            list-style: none;
+        }
+
+        .hover{
+            display: inline;
+            padding: 5px;
+        }
+
+        .hover:hover{
+            background-color: lightgray;
+
+        }
+
+        .nested{
+            display: none;
+            position: absolute;
+            background-color: gray;
+            list-style: none;
+            /* text-align: center; */
+            padding: 5px;
+            color: white;
+        }
+
+        .hover:hover > .nested{
+            display: block;
+        }
+
+    </style>
+    <ul class="nested_testing">
+        <li class="hover"><a class="list" href="./basic_structure.html">Basic structure</a></li>
+
+        <li class="hover">
+            <a class="list" href="./video_audio.html">Video</a>
+            <ul class="nested">
+                <li>Rashik</li>
+                <li>Rayhan</li>
+                <li>Ferdous</li>
+                <li>Nabid</li>
+            </ul>
+        </li>
+         
+        <li class="hover"><a class="list" href="../about.html">About</a></li>
+        <li class="hover"><a class="list" href="../anchor.html">Anchor</a></li>
+    </ul>
+
 
     <footer class="copy">
         <p><small>&copy; 2024 Rick Steves' Europe, Inc. | CST# 2086743 | Terms of Service | Privacy</small></p>
